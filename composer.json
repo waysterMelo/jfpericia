@@ -1,0 +1,22 @@
+{
+  "name": "wayster/jfpericia",
+  "description": "jfpericiacontabil's website",
+    "require": {
+      "phpmailer/phpmailer": "6.1.*",
+      "rain/raintpl": "3.1.*",
+      "slim/slim": "4.3.*",
+    "slim/psr7": "^0.6.0",
+    "nyholm/psr7": "^1.2",
+    "nyholm/psr7-server": "^0.4.1",
+    "guzzlehttp/psr7": "^1.6",
+    "http-interop/http-factory-guzzle": "^1.0",
+    "zendframework/zend-diactoros": "^2.1"
+
+    },
+
+  "autoload": {
+    "psr-4": {
+      "JF\\": "vendor\\jf\\classes\\src"
+    }
+  }
+}

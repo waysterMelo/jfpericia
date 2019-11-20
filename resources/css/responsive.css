@@ -1,0 +1,44 @@
+@media (min-width: 320px) and (max-width: 375px) {
+
+#logo nav{
+    margin: 0;
+    padding: 0;
+}
+    #menu-xs button{
+        border: 1px solid white;
+        margin-top: 0;
+        background-color: white;
+    }
+    #menu-xs button:hover{
+        border: 2px solid blue;
+    }
+    #menu {
+        background-color: black;
+    }
+
+#sliders .carousel-inner{
+    height: 450px;
+}
+#sliders img{
+    height: 450px;
+    width: available;
+}
+
+#sliders .textos h1{
+    font-size: 2em;
+}  #sliders .textos h2{
+        font-size: 22px;
+    }
+
+#about_us{
+    zoom: 0.6;
+    margin-top: -20%;
+}
+
+#diferencial{
+    zoom: 0.7;
+    margin-top: -15%;
+}
+
+
+}
