@@ -25,12 +25,20 @@ $app->get('/sobre-jfpericia', function (Request $request, Response $response){
    return $response;
 });
 
-$app->get('/servicos', function (Request $req, Response $res){
+$app->get('/jf-pericia-contabil-servicos', function (Request $req, Response $res){
    $page  =  new Page([
        "header"=>false
    ]);
     $page->setTpl("servicos");
     return $res;
+});
+
+$app->get('/contato', function (Request $req, Response $res){
+   $page = new Page([
+       "header"=>false
+   ]);
+   $page->setTpl("contato");
+   return $res;
 });
 
 $app->run();

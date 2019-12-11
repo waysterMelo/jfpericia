@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Scheherazade&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Baskervville&display=swap');
+
+body{
+    overflow-x: hidden;
+}
+
+.color{
+    background-color: black;
+    transition: ease-out 1s;
+}
+
+#menu ul li a {
+    font-size: 23px;
+    font-weight: lighter;
+}
+
+#menu ul li {
+    padding:0 20px 0 20px;
+}
+
+body{
+    font-family: 'Scheherazade', serif;
+}
+
+.bg-dark{
+    background-color: black;
+}
+
+#logo{
+    margin-top: 5%;
+}
+
+#form-contato {
+    margin-top: 50px;
+}
+
+#form-contato .card {
+    border: #42378f 2px solid;
+    margin-bottom: 10%;
+}
+
+#form-contato form input {
+    border: #f53844 2px solid;
+}
+
+#form-contato form select {
+    border: #f53844 2px solid;
+}
+
+#form-contato form textarea {
+    border: #f53844 2px solid;
+}
+
+#sobre_servicos .card{
+    min-height: 300px;
+    max-height: 300px;
+    border: none;
+}
+
+#about_us h5{
+    font-weight: lighter;
+    line-height: 50px;
+    font-family: 'Baskervville', serif;
+
+}
+
+#diferencial p{
+    line-height: 20px;
+    font-weight: bold;
+}
+
+#diferencial .card{
+    background-color: white;
+}
+
+#diferencial .card:hover{
+    opacity: 0.8;
+}
+
+#diferencial .LeftSide{
+    background-color: #42378f;
+    background-image: linear-gradient(315deg, #42378f 0%, #f53844 74%);
+}
+
+#diferencial {
+    font-size: 22px;
+}
+
+#quick_contact {
+    height: 300px;
+    font-size: 24px;
+}
+
+#services{
+    margin-top: -3%;
+    font-size: 22px;
+}
+
+@media (min-width: 320px) and (max-width: 414px){
+
+    header img{
+        width: 100%;
+    }
+
+    header #toggle{
+        width: 100%;
+    }
+
+    #menu {
+        background-color: #42378f;
+        background-image: linear-gradient(315deg, #42378f 0%, #f53844 74%);
+    }
+
+    header{
+        zoom: 0.8;
+    }
+
+   #header_texto {
+       zoom: 0.7;
+   }
+
+   #about_us{
+       zoom: 0.7;
+   }
+   #diferencial{
+       zoom: 0.8;
+       padding: 15px;
+   }
+   #quick_contact{
+       height: auto;
+   }
+
+   footer .list-group{
+       zoom: 1.3;
+       width: 100%;
+       text-align: center;
+       margin-top: -20%;
+   }
+
+   footer .links{
+       margin-top: -150px;
+       zoom: 1.3;
+   }
+
+
+
+}
+
